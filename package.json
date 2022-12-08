@@ -1,0 +1,33 @@
+{
+  "name": "projeto-teste2",
+  "version": "1.0.0",
+  "description": "Este projeto reúne um banco de dados com iniciativas sobre educação sexual que foram criadas por mulheres ou instituições que realizam oficinas, palestras ou  artigos sobre a saúde, psicologia e orientações sobre o corpo feminino, despertando de forma positiva, com o objetivo de democratizar e facilitar o acesso de crianças e jovens a terem conhecimento sobre o seu corpo e seu pertencimento dentro de uma sociedade mais acolhedora.",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --watchAll --detectOpenHandles",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20",
+    "swagger-autogen": "^2.22.0",
+    "swagger-ui-express": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.2"
+  }
+}
