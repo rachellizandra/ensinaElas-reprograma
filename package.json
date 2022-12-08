@@ -1,5 +1,5 @@
 {
-  "name": "projeto-teste2",
+  "name": "ensinaElas-reprograma",
   "version": "1.0.0",
   "description": "Este projeto reúne um banco de dados com iniciativas sobre educação sexual que foram criadas por mulheres ou instituições que realizam oficinas, palestras ou  artigos sobre a saúde, psicologia e orientações sobre o corpo feminino, despertando de forma positiva, com o objetivo de democratizar e facilitar o acesso de crianças e jovens a terem conhecimento sobre o seu corpo e seu pertencimento dentro de uma sociedade mais acolhedora",
   "main": "server.js",
