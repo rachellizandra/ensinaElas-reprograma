@@ -26,6 +26,10 @@ describe("Instituicao Controller", () => {
         instituicaoMock.id = novaInstituicao._id
     })
 
+    afterAll(async () => {
+        await model.deleteMany() // deletar muitos
+      })
+
     test("GET /instituicoes/all", (done) => {
         request(app)
         .get("/instituicoes/all")
@@ -44,9 +48,9 @@ describe("Instituicao Controller", () => {
         const novaInstituicao = {
             nome: "AzMina",
             sobre: "AzMina é uma instituição sem fins lucrativos cujo objetivo é combater os diversos tipos de violência que atingem mulheres brasileiras, considerando as diversidades de raça, classe e orientação sexual.",
-            cnpj: "56329864957888",
+            cnpj: "56329864957855",
             telefone: "não encontrado",
-            endereco: "R. Prof. Rubião Meira, 59 - Pinheiros, SP",
+            endereco: "R. Prof. Rubião Meira, 59 - Pinheiros, São Paulo",
             site: "https://azmina.com.br/"
         }
 

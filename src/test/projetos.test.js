@@ -25,6 +25,10 @@ describe("Projeto Controller", () => {
         projetoMock.id = novoProjeto._id
     })
 
+    afterAll(async () => {
+        await model.deleteMany() // deletar muitos
+      })
+
     test("GET /projetos/all", (done) => {
         request(app)
         .get("/projetos/all")
@@ -42,7 +46,7 @@ describe("Projeto Controller", () => {
 
         const novoProjeto = {
             nome: "Polpa",
-            site: "Teste7",
+            site: "Teste8",
             email: "https://polpaedu.wixsite.com/",
             descricao: "Trabalho de Conclusão de Curso apresentado pela aluna Louise Hardy ao Centro de Comunicação e Letras da Universidade Presbiteriana Mackenzie como requisito parcial para a obtenção do grau de Bacharel em Jornalismo, orientado pela Profª. Drª. Valéria Bussola Martins. O Polpa foi criado com o objetivo de ajudar meninas e mulheres a se conhecerem e pensarem em sexo de forma natural e positiva. Além disso, visa ser um produto informativo que deixa claro informações necessárias para a saúde de todas. Este Trabalho de Conclusão de Curso não reflete a opinião da Universidade Presbiteriana Mackenzie. Seu conteúdo e abordagem são de total responsabilidade de seu autor.",
             palavras_chave: ["Anatomia", "Menstruação", "Contraceptivos", "ISTs"],
