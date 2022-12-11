@@ -1,6 +1,6 @@
 <h2 align="center"> Projeto: EnsinaElas 👩👩🏻👩🏼👩🏽👩🏾👩🏿 </h2>
 <h2 align="center">
-  <img src="images\logotipo-animada.mp4" alt="logo ensinaElas" width="50%">
+  <img src="images\logotipo-animada.gif" alt="logo ensinaElas" width="50%">
 </h2>
 
 ## Apresentação :rainbow:
