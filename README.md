@@ -5,6 +5,10 @@
 
 ## Apresentação :rainbow:
 
+<h2 align="center">
+  <img src="images\WhatsApp Image 2020-05-24 at 10.19.47.jpeg" alt="foto-autora" width="50%">
+</h2>
+
 Olá! Meu nome é Rachel Lizandra, tenho 23 anos, sou lésbica, moro em Recife-PE, graduanda em Química Industrial na UFPE e dona de uma gatinha chamada Doja Cat. Amo Paramore, Lady Gaga e Willow. Apaixonada pelos filmes do A24 e RPG. Estou há 1 ano migrando de carreira para área Tech e finalizando o curso de desenvolvimento em Back-end na {Reprograma}.
 
 
@@ -206,10 +210,6 @@ npm install supertest
 
 
 ## Autora 🧜‍♀️
-
-<h2 align="center">
-  <img src="images\WhatsApp Image 2020-05-24 at 10.19.47.jpeg" alt="foto-autora" width="50%">
-</h2>
 
 - [Instagram](https://www.instagram.com/rachel.lizandra/)
 - [Linkedin](https://www.linkedin.com/in/rachel-lizandra-96a430169/)
