@@ -3,33 +3,34 @@
 </h1> 
 
 
-## 	 Apresentação :rainbow:
+## **Apresentação** :rainbow:
 
-Olá! Meu nome é Rachel Lizandra, tenho 23 anos, sou lésbica, moro em Recife-PE, graduanda em Química Industrial na UFPE e dona de uma gatinha chamada Doja Cat. Amo Paramore, Doja Cat e Willow. Apaixonada pelos filmes do A24 e RPG. Estou há 1 ano migrando de carreira para área Tech e finalizando o curso de desenvolvimento em Back-end na {Reprograma}.
+Olá! Meu nome é Rachel Lizandra, tenho 23 anos, sou lésbica, moro em Recife-PE, graduanda em Química Industrial na UFPE e dona de uma gatinha chamada Doja Cat. Amo Paramore, Lady Gaga e Willow. Apaixonada pelos filmes do A24 e RPG. Estou há 1 ano migrando de carreira para área Tech e finalizando o curso de desenvolvimento em Back-end na {Reprograma}.
 
 
-## Sobre o projeto 👩‍💻
+## **Sobre o projeto** 👩‍💻
 
-A ideia desse projeto surgiu quando comecei a me questionar a necessidade de nós, mulheres cis ou trans, termos consciência sobre uma das partes mais importantes do verdadeiro eu: nosso corpo. Sermos orientadas sobre os nossos corpos, do que realmente gostamos e do que queremos aprender sobre ele. O corpo não só como uma representação artística ou objetificação, mas como ele funciona, o que devemos fazer para cuidar, se sentirmos mais livres para expressar e exercermos nossa sexualidade. 
+A ideia desse projeto surgiu quando comecei a me questionar a necessidade de nós, mulheres cis, trans ou travestis, termos consciência sobre uma das partes mais importantes do verdadeiro eu: nosso corpo. Sermos orientadas sobre os nossos corpos, do que realmente gostamos e do que podemos aprender sobre ele. O corpo não só como uma representação artística ou objetificação, mas como ele funciona, o que devemos fazer para cuidar, se sentirmos mais livres para expressar e exercermos nossa sexualidade. 
 
-No caso da educação sexual , sobre orientação para prevenção de gravidez precoce e Infecções Sexualmente Transmissíveis (ISTs) em escolas, de acordo com a última pesquisa do instituto Datafolha sobre os temas, realizada com 2.077 pessoas em 130 municípios, os favoráveis à adoção dos conteúdos nas salas de aula ‘venceram’ os contrários. De acordo com os dados: 54% foram a favor, 44% contra e 2% disseram não saber.  Porém, mesmo com o crescimento econômico e o sucesso dos indicadores sociais, estes não são suficientes para a promoção dos direitos sexuais das crianças e mulheres jovens.
+Falando em relação à educação sexual, sobre orientação para prevenção de gravidez precoce e Infecções Sexualmente Transmissíveis (ISTs) em escolas, de acordo com a última pesquisa do instituto Datafolha sobre os temas, realizada com 2.077 pessoas em 130 municípios, os favoráveis à adoção dos conteúdos nas salas de aula ‘venceram’ os contrários. De acordo com os dados: 54% foram a favor, 44% contra e 2% disseram não saber. Porém, mesmo com o crescimento econômico e o sucesso dos indicadores sociais, estes não são suficientes para a promoção dos direitos sexuais das crianças e mulheres jovens.
 
-Este projeto reúne um banco de dados com iniciativas sobre educação sexual que foram criadas por mulheres ou instituições que realizam oficinas, palestras ou  artigos sobre a saúde, psicologia e orientações sobre o corpo feminino, despertando de forma positiva, com o objetivo de democratizar e facilitar o acesso de crianças e jovens a terem conhecimento sobre o seu corpo e seu pertencimento dentro de uma sociedade mais acolhedora. 
+Este projeto reúne um banco de dados (API) com iniciativas e instituições que realizam oficinas, palestras ou artigos sobre saúde, psicologia e orientações sobre o corpo feminino, despertando de forma positiva, com o objetivo de democratizar e facilitar o acesso de crianças e jovens às informações sobre o tema e seu pertencimento dentro de uma sociedade mais acolhedora. 
 
-## Fontes dos dados 📈
+## **Fontes dos dados** 📈
 
-- https://revistaeducacao.com.br/2019/11/13/projetos-educacao-sexual-escolas/
+- [Revista Educação](https://revistaeducacao.com.br/2019/11/13/projetos-educacao-sexual-escolas/)
 
-- https://revistaeducacao.com.br/2019/11/07/educacao-sexual-nas-escolas/
+- [Revista Educação](https://revistaeducacao.com.br/2019/11/07/educacao-sexual-nas-escolas/)
 
-- https://prazerela.com.br/
+- [Prazer ela](https://prazerela.com.br/)
 
-  
+- [Uniaids](https://unaids.org.br/2021/01/unaids-e-parceiros-lancam-cartilhas-de-saude-integral-e-sexual-para-travestis-e-mulheres-trans/)
 
-## Arquitetura MVC 📁
+
+## **Arquitetura MVC** 📁
 
 ```
-📁projeto-ensinaelas-Reprograma
+📁ensinaeElas-Reprograma
 ├── 📁node_modules
 ├── 📁src
 |   ├── 📁config
@@ -51,9 +52,9 @@ Este projeto reúne um banco de dados com iniciativas sobre educação sexual qu
         ├── 📄usersRoutes.js
         ├── 📄indexRoutes.js
 |   ├── 📁test
-        ├── 📄projects.test.js
-        ├── 📄institutions.test.js
-        ├── 📄users.test.js
+        ├── 📄projetos.test.js
+        ├── 📄instituicoes.test.js
+        ├── 📄jest.setup.js
 |   ├── app.js
 ├── 📁swagger
     ├── 📄swagger_output.json
@@ -69,7 +70,7 @@ Este projeto reúne um banco de dados com iniciativas sobre educação sexual qu
 ├── 📄swagger.js
 ```
 
-## Tecnologias e dependências 💻
+## **Tecnologias e dependências** 💻
 
 **Base do projeto**
 
@@ -149,7 +150,7 @@ Sendgrid:
 npm @sendgrid/mail
 ```
 
-## Coleções 📃
+## **Coleções** 📃
 
 *Models:
 
@@ -181,7 +182,7 @@ npm @sendgrid/mail
 }
 
 
-## Rotas - EndPoint ➡
+## **Rotas - EndPoint** ➡
 
 | Rotas - Projetos            | Funções                                                      | Status | Auth |
 | --------------------------- | ------------------------------------------------------------ | ------ | ---- |
@@ -212,13 +213,13 @@ npm @sendgrid/mail
 
 
 
-## Documentação da API 📄
+## **Documentação da API** 📄
 
 
 
 
 
-## Contribuição para o projeto 👩🏾‍🤝‍👩🏼🤝🏽
+## **Contribuição para o projeto** 👩🏾‍🤝‍👩🏼🤝🏽
 
 1. Faça um **fork** do projeto.
 2. Realize o clone do projeto através do `git clone <link_do_fork_do_repositorio>`
@@ -229,13 +230,12 @@ npm @sendgrid/mail
 
 
 
-## Referências  e informações 📚
+## **Referências e informações** 📚
 
 
 
-## Autora 🧜‍♀️
+## **Autora** 🧜‍♀️
 
-- Foto
-- Linkedin
-- Discord
-
+- [Instagram]
+- [Linkedin](https://www.linkedin.com/in/rachel-lizandra-96a430169/)
+- [Discord]

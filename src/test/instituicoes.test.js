@@ -27,7 +27,7 @@ describe("Instituicao Controller", () => {
     })
 
     afterAll(async () => {
-        await model.deleteMany() // deletar muitos
+        await model.deleteMany()
       })
 
     test("GET /instituicoes/all", (done) => {
