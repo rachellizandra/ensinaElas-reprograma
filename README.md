@@ -1,9 +1,9 @@
-<h1 align="center">
-<p align="center">Projeto: ensinaElas 👩👩🏻👩🏼👩🏽👩🏾👩🏿 <p>
-</h1> 
+<h2 align="center"> Projeto: EnsinaElas 👩👩🏻👩🏼👩🏽👩🏾👩🏿 </h2>
+<h2 align="center">
+  <img src="images\logotipo-animada.mp4" alt="logo ensinaElas" width="50%">
+</h2>
 
-
-## 	 Apresentação :rainbow:
+## Apresentação :rainbow:
 
 Olá! Meu nome é Rachel Lizandra, tenho 23 anos, sou lésbica, moro em Recife-PE, graduanda em Química Industrial na UFPE e dona de uma gatinha chamada Doja Cat. Amo Paramore, Lady Gaga e Willow. Apaixonada pelos filmes do A24 e RPG. Estou há 1 ano migrando de carreira para área Tech e finalizando o curso de desenvolvimento em Back-end na {Reprograma}.
 
@@ -18,11 +18,11 @@ Este projeto reúne um banco de dados (API) com iniciativas e instituições que
 
 ## Fontes dos dados 📈
 
-- https://revistaeducacao.com.br/2019/11/13/projetos-educacao-sexual-escolas/
+- [Revista Educação](https://revistaeducacao.com.br/2019/11/13/projetos-educacao-sexual-escolas/)
 
-- https://revistaeducacao.com.br/2019/11/07/educacao-sexual-nas-escolas/
+- [Revista Educação](https://revistaeducacao.com.br/2019/11/07/educacao-sexual-nas-escolas/)
 
-- https://prazerela.com.br/
+- [Prazer ela](https://prazerela.com.br/)
 
 - [Uniaids](https://unaids.org.br/2021/01/unaids-e-parceiros-lancam-cartilhas-de-saude-integral-e-sexual-para-travestis-e-mulheres-trans/)
 
@@ -30,7 +30,7 @@ Este projeto reúne um banco de dados (API) com iniciativas e instituições que
 ## Arquitetura MVC 📁
 
 ```
-📁projeto-ensinaelas-Reprograma
+📁ensinaelas-Reprograma
 ├── 📁node_modules
 ├── 📁src
 |   ├── 📁config
@@ -56,18 +56,13 @@ Este projeto reúne um banco de dados (API) com iniciativas e instituições que
         ├── 📄institutions.test.js
         ├── 📄users.test.js
 |   ├── app.js
-├── 📁swagger
-    ├── 📄swagger_output.json
 ├── 📄.env
 ├── 📄.env.example 
-├── 📄.eslintrc.json
 ├── 📄.gitignore
 ├── 📄package-lock.json
 ├── 📄package.json
-├── 📄Procfile
 ├── 📄README.md
 ├── 📄server.js
-├── 📄swagger.js
 ```
 
 ## Tecnologias e dependências 💻
@@ -125,29 +120,11 @@ npm install dotenv
 **Testes**
 
 ```
-ESlint:
-npm install --save-dev eslint@8.16.0
-npx eslint --init
-
 Jest:
 npm install jest
 
 Supertest: 
 npm install supertest
-```
-
-**Documentação**
-
-```
-Swagger:
-npm i swagger-autogen swagger-ui-express
-```
-
-**Serviço de e-mail**
-
-```
-Sendgrid:
-npm @sendgrid/mail
 ```
 
 ## Coleções 📃
@@ -215,8 +192,7 @@ npm @sendgrid/mail
 
 ## Documentação da API 📄
 
-
-
+- [Google Docs](https://docs.google.com/document/d/1V8ke1EIvuDcfkJaFZH7byWSHUWKLoV1pq8hZzsE2zAI/edit?usp=sharing)
 
 
 ## Contribuição para o projeto 👩🏾‍🤝‍👩🏼🤝🏽
@@ -229,14 +205,13 @@ npm @sendgrid/mail
 6. Envie as suas alterações: `git push origin minha-branch`
 
 
-
-## Referências  e informações 📚
-
-
-
 ## Autora 🧜‍♀️
 
-- Foto
-- Linkedin
-- Discord
+<h2 align="center">
+  <img src="images\WhatsApp Image 2020-05-24 at 10.19.47.jpeg" alt="foto-autora" width="50%">
+</h2>
+
+- [Instagram](https://www.instagram.com/rachel.lizandra/)
+- [Linkedin](https://www.linkedin.com/in/rachel-lizandra-96a430169/)
+- [Discord](https://discord.com/channels/867748958201315328/@home)
 
